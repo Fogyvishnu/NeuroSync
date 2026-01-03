@@ -71,3 +71,11 @@ NeuroSync is a comprehensive EEG Brain-Computer Interface (BCI) system implement
 ```bash
 git clone https://github.com/Fogyvishnu/NeuroSync.git
 cd NeuroSync
+```
+
+2. Add to MATLAB Path
+addpath(genpath(pwd));
+savepath;  % Optional: save path for future sessions
+
+3. Run Setup Script
+setup_neurosync;
