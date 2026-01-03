@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![NeuroSync Logo](docs/images/logo.png)
+
 *Syncing Minds with Machines*
 
 [![MATLAB](https://img.shields.io/badge/MATLAB-R2023b-blue.svg)](https://www.mathworks.com/products/matlab.html)
