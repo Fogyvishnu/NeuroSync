@@ -1,0 +1,73 @@
+# MATLAB specific
+*.asv
+*.m~
+*.mat
+*.mex*
+*.p
+*.prj
+*.slxc
+*.slx
+*.so
+
+# Build and distribution
+neurosync_*.zip
+neurosync_*.tar.gz
+/dist/
+/build/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*~
+*.bak
+
+# Dataset files (large)
+/datasets/*.gdf
+/datasets/*.edf
+/datasets/*.bdf
+/datasets/*.set
+/datasets/*.fdt
+
+# Results directory
+/results/figures/*
+/results/models/*
+!/results/README.md
+
+# Logs
+*.log
+logs/
+
+# Dependencies
+deps/
+libs/
+
+# Compiled files
+*.mex*
+*.p
+
+# MATLAB preferences
+matlab.prf
+
+# Package files
+*.mlpkginstall
+*.mlappinstall
+
+# Simulink
+*.slxc
+*.slx
+*.sldd
