@@ -74,8 +74,12 @@ cd NeuroSync
 ```
 
 2. Add to MATLAB Path
+```bash
 addpath(genpath(pwd));
 savepath;  % Optional: save path for future sessions
+```
 
-3. Run Setup Script
+4. Run Setup Script
+```bash
 setup_neurosync;
+```
